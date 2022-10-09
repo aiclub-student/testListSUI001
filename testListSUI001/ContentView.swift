@@ -43,11 +43,11 @@ struct BasicTextImageRow: View {
     @State private var showOptions=false
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 20) {
+        HStack(alignment: .top, spacing: 20) {
             Image(imageName)
                 .resizable()
                 .scaledToFill()
-                .frame(height: 100)
+                .frame(width: 100)
                 .cornerRadius(20)
             VStack(alignment: .leading) {
                 Text(name)

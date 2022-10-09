@@ -13,6 +13,10 @@
 		AA21AFE1273DC0D10021F282 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA21AFE0273DC0D10021F282 /* Preview Assets.xcassets */; };
 		AA25EE8127569ADF009A5AFE /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = AA25EE8027569ADF009A5AFE /* CodeScanner */; };
 		AAD7EFFB28EF454F00EBC0AE /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7EFFA28EF454F00EBC0AE /* ScannerView.swift */; };
+		AAD7EFFD28F3200900EBC0AE /* MultiTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7EFFC28F3200900EBC0AE /* MultiTabView.swift */; };
+		AAD7EFFF28F3207500EBC0AE /* GoodDeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7EFFE28F3207500EBC0AE /* GoodDeedView.swift */; };
+		AAD7F00128F3239800EBC0AE /* WebViewCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7F00028F3239800EBC0AE /* WebViewCore.swift */; };
+		AAD7F00328F3352B00EBC0AE /* RedeemPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7F00228F3352B00EBC0AE /* RedeemPoints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		AA21AFDD273DC0D10021F282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA21AFE0273DC0D10021F282 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AAD7EFFA28EF454F00EBC0AE /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		AAD7EFFC28F3200900EBC0AE /* MultiTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTabView.swift; sourceTree = "<group>"; };
+		AAD7EFFE28F3207500EBC0AE /* GoodDeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodDeedView.swift; sourceTree = "<group>"; };
+		AAD7F00028F3239800EBC0AE /* WebViewCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewCore.swift; sourceTree = "<group>"; };
+		AAD7F00228F3352B00EBC0AE /* RedeemPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedeemPoints.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 			children = (
 				AA21AFD9273DC0CF0021F282 /* testListSUI001App.swift */,
 				AA21AFDB273DC0CF0021F282 /* ContentView.swift */,
+				AAD7EFFE28F3207500EBC0AE /* GoodDeedView.swift */,
+				AAD7F00228F3352B00EBC0AE /* RedeemPoints.swift */,
+				AAD7EFFC28F3200900EBC0AE /* MultiTabView.swift */,
+				AAD7F00028F3239800EBC0AE /* WebViewCore.swift */,
 				AAD7EFFA28EF454F00EBC0AE /* ScannerView.swift */,
 				AA21AFDD273DC0D10021F282 /* Assets.xcassets */,
 				AA21AFDF273DC0D10021F282 /* Preview Content */,
@@ -150,7 +162,11 @@
 			files = (
 				AAD7EFFB28EF454F00EBC0AE /* ScannerView.swift in Sources */,
 				AA21AFDC273DC0CF0021F282 /* ContentView.swift in Sources */,
+				AAD7EFFD28F3200900EBC0AE /* MultiTabView.swift in Sources */,
+				AAD7F00328F3352B00EBC0AE /* RedeemPoints.swift in Sources */,
 				AA21AFDA273DC0CF0021F282 /* testListSUI001App.swift in Sources */,
+				AAD7F00128F3239800EBC0AE /* WebViewCore.swift in Sources */,
+				AAD7EFFF28F3207500EBC0AE /* GoodDeedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
